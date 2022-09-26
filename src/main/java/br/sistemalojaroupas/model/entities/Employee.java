@@ -175,7 +175,9 @@ public class Employee implements Serializable, TableContract {
         };
     }
 
-    public boolean verificaSeSalarioMaiorQueZero() {
+    public boolean salarioPrecisaSerMaiorQueZero() {
         return this.salary > 0;
     }
+
+
 }
